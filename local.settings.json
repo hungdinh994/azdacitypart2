@@ -1,9 +1,16 @@
 {
-  "IsEncrypted": true,
+  "IsEncrypted": false,
   "Values": {
-    "FUNCTIONS_WORKER_RUNTIME": "CfDJ8KvJ6DmYyMJCgkPKMHi9yggxobSNL+EiBudqjTbkN08MV8FPGx7WqKyJXi1vK5/3O48YnxQvGjJtBiH2gbzh8qUxrA2On+1JRf1xQeWwdKwATocSwT1CMT9SN2gtzXs0ZQ=="
+    "FUNCTIONS_WORKER_RUNTIME": "Python",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "1c567303-ea9a-4d67-9b93-d74dbfe2fae7",
+    "AzureWebJobs.WarmUp.Disabled": "0",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=storageaccountazpart2;AccountKey=YytxQEz+aC8pRL+g7dwXr/O53KbSzz0uJY7zQbJ0Seazqx/ni1BzQLrcUHG71FZp79b1WrWILqTf+ASt7SCkXg==",
+    "FUNCTIONS_EXTENSION_VERSION": "~3",
+    "MyDbConnection": "mongodb://cosmosdbazlab2:ktxTt1tNmihYAMZpoy8ANANMc3BG024cDimVA89RaKq4LeDKdd3AUbCnChsPqzOEolFw4tuTjAyWACDbVo0NOw==@cosmosdbazlab2.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@cosmosdbazlab2@",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=storageaccountazpart2;AccountKey=YytxQEz+aC8pRL+g7dwXr/O53KbSzz0uJY7zQbJ0Seazqx/ni1BzQLrcUHG71FZp79b1WrWILqTf+ASt7SCkXg==",
+    "WEBSITE_CONTENTSHARE": "hungfunc151935baa1759",
+    "WEBSITE_MOUNT_ENABLED": "1",
+    "WEBSITE_RUN_FROM_PACKAGE": "https://storageaccountazpart2.blob.core.windows.net/function-releases/20231108182153-87c86483-7472-4ba2-84e8-329128c9506c.zip?sv=2018-03-28&sr=b&sig=xMFMzjld4LI6hhRE%2FjFoJB8e2tqzKuYoglRpqccqKmE%3D&st=2023-11-08T18%3A16%3A57Z&se=2033-11-08T18%3A21%3A57Z&sp=r"
   },
-  "ConnectionStrings": {},
-
-  "AzureWebJobsStorage": ""
+  "ConnectionStrings": {}
 }

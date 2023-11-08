@@ -241,4 +241,22 @@ Clean up and remove all services, or else you will incur charges.
 RESOURCE_GROUP="<YOUR-RESOURCE-GROUP>"
 # run this command
 az group delete --name $RESOURCE_GROUP
-```
+```hungfunc1
+
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'pymongo'. Troubleshooting Guide: https://aka.ms/functions-modulenotfound
+Stack: File "/azure-functions-host/workers/python/3.9/LINUX/X64/azure_functions_worker/dispatcher.py", line 314, in _handle__function_load_request
+func = loader.load_function(
+File "/azure-functions-host/workers/python/3.9/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 42, in call
+raise extend_exception_message(e, message)
+File "/azure-functions-host/workers/python/3.9/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 40, in call
+return func(*args, **kwargs)
+File "/azure-functions-host/workers/python/3.9/LINUX/X64/azure_functions_worker/loader.py", line 85, in load_function
+mod = importlib.import_module(fullmodname)
+File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+return _bootstrap._gcd_import(name[level:], package, level)
+File "/home/site/wwwroot/getAdvertisements/__init__.py", line 2, in <module>
+import pymongo
+
+
+
